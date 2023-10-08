@@ -1,0 +1,65 @@
+// color-variable
+$primary-color: #457bff;
+$secondary-color: #457bff;
+$primary-color-1: #45af96;
+$emphasis-color: #94ffdf;
+$emphasis-color-1: #00ffd4;
+
+$color-white: #fff;
+
+$neutral-100: #e8e8e8;
+$neutral-200: #d1d1d1;
+$neutral-400: #a1a1a1;
+$neutral-500: #616161;
+$neutral-600: #474747;
+$neutral-1000: #000;
+
+$white-01: rgba(0, 0, 0, 0.1);
+$white-04: rgba(0, 0, 0, 0.4);
+$white-005: rgba(0, 0, 0, 0.05);
+
+$gray-1: #edf2f7;
+$gray-2: #131d20;
+$gray-3: rgba(255, 255, 255, 0.02);
+$gray-4: #262f31;
+$gray-5: rgba(255, 255, 255, 0.1);
+
+$text-color-primary: $neutral-1000;
+$green-color: #a2ffbc;
+$yellow-color: #ddaf0c;
+$purple-color: #f8a2ff;
+$violet-color: #8684ff;
+$blur-color: #53acff;
+$red-color: #ff0c15;
+$red-color-2: #f17e7e;
+$red-color-3: #eb4d4d;
+$pink-color: #ffa2a2;
+$orange: #ff7324;
+
+$bg-global: #fff;
+
+//color layout
+$background-color-content: $bg-global;
+$color-menu: $neutral-1000;
+$color-active-menu: $secondary-color;
+$background-header: $bg-global;
+$background-footer: $neutral-100;
+$background-sider: $bg-global;
+$border-header: $bg-global;
+
+//size-pixel
+
+$height-header: 80px;
+$height-header-create: 68px;
+$height-footer: 0px;
+$height-input: 48px;
+$height-button: 48px;
+
+//color notification
+$color-notify-success: #428959;
+$color-notify-error: #ff0c15;
+$color-notify-warning: #f18f01;
+
+//change nit light
+$lighterColorRedHover: lighten($red-color-3, 5%);
+$lighterColorBlackHover: lighten($neutral-1000, 5%);
